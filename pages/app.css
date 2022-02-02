@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Konnect';
+  src: url('/fonts/Konnect-Regular.otf') format('opentype');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+body {
+  font-family: Konnect;
+}
+
+#filled-number,
+#outlined-adornment-password {
+  height: 64px !important;
+}
+
+@media only screen and (max-width: 769px) {
+  #filled-number,
+  #outlined-adornment-password {
+    height: 48px !important;
+  }
+}
