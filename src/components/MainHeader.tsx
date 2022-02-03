@@ -4,7 +4,7 @@ import Button from '@mui/material/Button';
 
 import { WalletContext } from '../context/Wallet';
 
-export default function Header() {
+export default function MainHeader() {
   const { isWalletConnected, setIsWalletConnected } = useContext(WalletContext);
 
   return (

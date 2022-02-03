@@ -2,7 +2,7 @@ import type { NextPage } from 'next';
 import Box from '@mui/material/Box';
 
 import Container from '../src/components/Container';
-import Header from '../src/components/Header';
+import Header from '../src/components/MainHeader';
 
 const Home: NextPage = () => {
   return (
