@@ -1,6 +1,7 @@
+import { useContext } from 'react';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import { useContext } from 'react';
+
 import { WalletContext } from '../context/Wallet';
 
 export default function Header() {

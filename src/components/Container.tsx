@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import Box from '@mui/material/Box';
-import Swap from './swap';
-import Pool from './pool';
-import BasicTabs from './tabs';
+
+import Swap from './Swap';
+import Pool from './Pool';
+import BasicTabs from './ui/Tabs';
 
 export default function Container() {
   const [selectedTab, setSelectedTab] = useState(0);

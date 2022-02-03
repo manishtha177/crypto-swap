@@ -1,18 +1,13 @@
 import { useState, useContext } from 'react';
 import type { NextPage } from 'next';
-
 import Typography from '@mui/material/Typography';
-
-import Select from './ui/Select';
-
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 
 import InputButton from './ui/InputButton';
 import InputNumber from './ui/InputNumber';
-
+import Select from './ui/Select';
 import { WalletContext } from '../context/Wallet';
-
 import Details from './Details';
 
 const Swap: NextPage = () => {

@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import Box from '@mui/material/Box';
+
 import Details from './Details';
 
 const Pool: NextPage = () => {
